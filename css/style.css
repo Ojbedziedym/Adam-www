@@ -1,0 +1,39 @@
+body{
+	background-color: #439A97;
+  color: #000000;
+	
+	
+}
+hr {
+	border-color: gray;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  }
+
+  .opis {
+    text-align:justify;
+  }
+
+  .ptaszniki {
+    text-decoration: none;
+  }
+
+  .contact-me {
+    text-decoration: none;
+  }
+  h1{
+color: #CBEDD5;
+  }
+  h3{
+    color: #62B6B7;
+  }
+  .spider {
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    border-style: double;
+    border-width: 10px;
+    border-radius: 50px;
+  }
