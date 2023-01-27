@@ -1,5 +1,5 @@
 body{
-	background-color: #439A97;
+	background-color: #CBEDD5;
   color: #000000;
 	
 	
@@ -24,7 +24,7 @@ hr {
     text-decoration: none;
   }
   h1{
-color: #CBEDD5;
+color: #439A97;
   }
   h3{
     color: #62B6B7;
@@ -36,4 +36,23 @@ color: #CBEDD5;
     border-style: double;
     border-width: 10px;
     border-radius: 50px;
+  }
+
+  .chromka {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 400px;
+  }
+
+  .versi {
+    position: absolute;
+    margin-left: 400px;
+  }
+
+  .pajunki {
+    background-color: #F8F988;
+    position: relative;
+    width: 800px;
+    height: 1200px;
+    align-items: center;
   }
