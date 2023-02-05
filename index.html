@@ -8,7 +8,11 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/ca558b6987.js" crossorigin="anonymous"></script>
 	
-	<title>Strona Świeżaka</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Monoton&family=Montserrat:wght@900&family=Style+Script&family=Stylish&display=swap" rel="stylesheet">
+
+<title>Strona Świeżaka</title>
     <script>
         function flash(id, kolor, czas, kolor2, czas2)
         {
@@ -21,7 +25,7 @@
 
 </head>
 <body>
-	<section class="title">
+	<section class="title-section">
 	<nav class="navbar navbar-expand-lg navbar-dark">
 		<div class="container-fluid">
 		  <a class="navbar-brand" href="#"><i class="fa-spider"></i> Hello World</a>
@@ -36,46 +40,41 @@
 			</div>
 		  </div>
 		</div>
-	  </nav>
-
+	</nav>
 	  <div class="container">
 		<div class="col">
 			<div class="col">
-				<h1><center>Adam Doniak</center></h1>
+				<h1>Adam Doniak</h1>
 			</div>
+			<hr>
 			<div class="col">
 				<h3>Witam na mojej stronie domowej.</h3>
 			</div>
+			<hr>
 			<div class="col">
-				<img src="images/Adam.jpg" alt="Moje zdjęcie profilowe" style="border-radius: 25px;">
+				<img class="profil-foto" src="images/Adam.jpg" alt="Moje zdjęcie profilowe">
 			</div>
 		  </div>
 		</div>
-	
-		
-			
-			
 
-				
-				
-				
-		
-	
 </section>
+<section class="header-section">
 	<center>
-    <h2><div id="identyfikator">Helloł World :)</div></h2>
+    <h2><div id="identyfikator" class="neon">Helloł World :)</div></h2>
         <script>
         flash("identyfikator", "red", 500, "orange", 500);
         </script></center>
 	<hr>
     <p class="opis">
-        Tak krótko opisując swoją osobę, jestem 40 - letnim facetem mieszkającym na stałe w Niemczech, w pięknym mieście Monachium. Zaczynam się uczyć programownia, poza tym po wielu próbach odnalazłem swoje hobby, które mnie fascynuje, mianowicie <a href="ptaszniki.html" class="ptaszniki"> hodowla ptaszników</a>. To dla mnie temat rzeka, o którym mogę gadać godzinami.
+        Tak krótko opisując swoją osobę, jestem 40 - letnim facetem mieszkającym na stałe w Niemczech, w pięknym mieście Monachium. Zaczynam się uczyć programownia, poza tym po wielu próbach odnalazłem swoje hobby, które mnie fascynuje, mianowicie <a href="ptaszniki.html" class="ptaszniki"> hodowla ptaszników</a>. To dla mnie temat rzeka, o którym mogę gadać godzinami. Po za tym uwiebiam wszelkiego rodzaju muzykę. Mam swoje ulubione gatunki, ale równieź lubię odkrywać nowe brzmienia. Od jakiegoś czasu zacząłem chodzić na siłownie, jak i powróciłem do swojego ulubionego zajęcia, czyli jazda na rowerze.
     </p>
 	<br>
 	<hr>
 	<br>
+</section>
+<section class="main-section">
 	<h3>Moje kursy</h3>
-	<table cellspacing="10px">
+	<table cellspacing="10px" class="curses">
 		<thead>
 			<tr>
 				<th>Data</th>
@@ -97,7 +96,7 @@
 	<hr>
 	<br>
 	<H3>Moje umiejętności</H3>
-	<table>
+	<table class="skills">
 		<tr>
 			<td><table cellspacing="10">
 				<tr>
@@ -123,6 +122,9 @@
 	<br>
 	<hr>
 	<br>
+</section>
+<section class="footer-section">
 	<center><a href="contact-me.html" class="contact-me">Contact me :)</a></center>
+</section>
 </body>
 </html>
