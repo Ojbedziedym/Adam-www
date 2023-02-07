@@ -25,6 +25,7 @@
   color: #fff;
     text-align:justify;
     font-family: 'Stylish', sans-serif;
+    padding: 10%;
 
 
   }
@@ -92,4 +93,8 @@ h3{
   }
   .footer-section {
     background-color: #0F3460;
+  }
+
+  .main-section {
+    padding: 10%;
   }
