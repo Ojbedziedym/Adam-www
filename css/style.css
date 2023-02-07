@@ -15,7 +15,7 @@
 .neon {
   align-items: center;
   font-family: 'Montserrat', sans-serif;
-  padding: 3%;
+  padding: 10%;
 }
 
 .header-section {
@@ -93,6 +93,7 @@ h3{
   }
   .footer-section {
     background-color: #0F3460;
+    padding: 10%;
   }
 
   .main-section {
